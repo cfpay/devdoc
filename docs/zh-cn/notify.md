@@ -2,7 +2,7 @@
 
 > ## 回调地址
 
-接受方式：`HTTP POST`
+接收方式：`HTTP POST`
 
     您在发起付款接口里传入的通知接口 即后台的回调地址
 
@@ -22,7 +22,7 @@ pay_time|支付时间|string|订单支付的时间
 user_msg|备注|string|
 
 
->## 返回样例JSON
+>## 接收样例JSON
 
 ```json
 {
