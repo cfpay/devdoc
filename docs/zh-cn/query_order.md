@@ -31,7 +31,7 @@ user_msg|备注|string|
 
 >## 返回样例JSON
 
-``
+```json
 {
               "msg": "查询成功",
               "code": 200,
@@ -44,7 +44,7 @@ user_msg|备注|string|
               "receive_way": "ALIPAY",
               "pay_time": null
               }
-``
+```
 
 
 
