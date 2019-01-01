@@ -2,5 +2,3 @@
 
 > An awesome project.
 
-
-
