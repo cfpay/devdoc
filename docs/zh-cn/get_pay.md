@@ -14,7 +14,7 @@ uid|用户UID|string|必填|您的唯一标识，注册后在“基本配置”�
 auth_code|授权码|string|必填|您的识别码，注册后在“接口参数配置”页面里获得。用于鉴别接口访问者。
 total_amount|金额|double/float|必填|发起付款的金额，单位：元，精确到小数点后两位。
 receive_way|支付类型|string|必填|支付宝或者微信，当前仅支持参数为 ALIPAY。
-return_url|跳转地址|string|必填|用户支付成功后，我们会让用户浏览器自动跳转到这个网址。由您自定义。
+return_url|跳转地址|string|必填|用户支付成功后，我们会让用户浏览器自动跳转到这个网址。由您自定义不可加参数。
 order_id|订单号|string|必填|订单号，由您自定义，要求唯一性，不可重复。
 key|加密字符串|string|必填|"格式为 MD5(uid + auth_code + total_amount + receive_way + return_url + order_id)"
 plat_type|平台类型|string|选填|0：PC端支付,1：wap端跳转支付
