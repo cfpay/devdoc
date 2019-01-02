@@ -6,7 +6,7 @@
 
     http://www.xxx.com/get_pay
 
->## 参数列表
+>## 请求参数
 
 参数名称|含义|类型|必填/选填|说明
 :--:|:--:|:--:|:--:|:--:
@@ -17,9 +17,10 @@ receive_way|支付类型|string|必填|支付宝或者微信，当前仅支持�
 return_url|跳转地址|string|必填|用户支付成功后，我们会让用户浏览器自动跳转到这个网址。由您自定义。
 order_id|订单号|string|必填|订单号，由您自定义，要求唯一性，不可重复。
 key|加密字符串|string|必填|"格式为 MD5(uid + auth_code + total_amount + receive_way + return_url + order_id)"
+plat_type|平台类型|string|选填|0：PC端支付,1：wap端跳转支付
 user_msg|订单号|string|选填|备注
 
->## 返回值
+>## 响应参数
 
 参数名称|含义|类型|说明
 :--:|:--:|:--:|:--:
@@ -29,7 +30,7 @@ total_amount|金额|double/float|用户支付的金额
 receive_way|支付类型|string|支付平台，支付宝或者微信 ALIPAY wechat 这两个值，当前仅会返回ALIPAY
 re_url|跳转的支付链接|string|支付链接字符串，直接跳转到此链接即可支付。
 
->## 返回样例JSON
+>## 响应示例JSON
 
 ```json
 {
