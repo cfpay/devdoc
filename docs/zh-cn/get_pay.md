@@ -20,7 +20,7 @@ key|加密字符串|string|必填|"格式为 MD5(uid + auth_code + total_amount 
 plat_type|平台类型|string|选填|0：PC端支付,1：wap端跳转支付
 user_msg|订单号|string|选填|备注
 
->## 响应参数
+>## 响应参数 
 
 参数名称|含义|类型|说明
 :--:|:--:|:--:|:--:
