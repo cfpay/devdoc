@@ -4,7 +4,7 @@
 
 请求方式：`HTTP POST`
 
-    http://www.xxx.com/get_pay
+    https://www.xxx.com/get_pay
 
 >## 请求参数
 

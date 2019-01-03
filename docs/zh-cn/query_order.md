@@ -4,7 +4,7 @@
 
 请求方式：`HTTP POST`
 
-    http://www.xxx.com/query_order
+    https://www.xxx.com/query_order
 
 >## 请求参数
 
