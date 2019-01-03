@@ -4,7 +4,7 @@
 
 请求方式：`HTTP POST`
 
-    http://pay.irhau.cn/query_order/
+    https://pay.irhau.cn/query_order/
 
 >## 请求参数
 
