@@ -1,1 +1,1 @@
-## 可访问 https://gamedream.github.io/cfdoc/#/zh-cn/get_pay
+## 可访问 https://cfpay.github.io/devdoc/
